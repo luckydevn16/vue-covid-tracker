@@ -1,0 +1,23 @@
+{
+  "name": "covid-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "autoprefixer": "^9",
+    "core-js": "^3.6.5",
+    "moment": "^2.29.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "gh-pages": "^5.0.0",
+    "vue-cli-plugin-tailwind": "~2.0.6"
+  }
+}
